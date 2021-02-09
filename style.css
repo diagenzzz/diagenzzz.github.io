@@ -1,0 +1,89 @@
+body {
+    background-image: url(https://images.wallpaperscraft.ru/image/luzhajka_les_gory_144578_1280x1024.jpg);
+	background-size: cover;
+	background-attachment: fixed
+}
+@font-face{
+    font-family: Padauk;
+    src: url(/Padauk/Padauk-Regular.ttf)
+}
+
+.centered {
+    position: relative;
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.content{
+    padding: 0px 25px 0px 25px;
+	border-radius: 5px;
+	/* background: rgb(51,22,73);
+    background: linear-gradient(0deg, rgba(51,22,73,1) 0%, rgba(121,18,205,1) 100%); */
+    background-color: white;
+	max-height: 20%;
+    display:  block;
+}
+
+a {
+    display: inline-block;
+    transition: .3s;
+    font-family: 'Andika New Basic', sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+    color:black;
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+a.instagram:hover{
+    -webkit-transform: scale (0.8);
+    transform: scale(0.8);
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+a.VK:hover{
+    -webkit-transform: scale (0.8);
+    transform: scale(0.8);
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+
+}
+
+a.telegram:hover{
+    -webkit-transform: scale (0.8);
+    transform: scale(0.8);
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+
+}
+
+a.github:hover{
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    background: rgb(34,34,34);
+    background: linear-gradient(90deg, rgba(34,34,34,1) 0%, rgba(105,105,105,1) 100%);
+    color:white;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+}
